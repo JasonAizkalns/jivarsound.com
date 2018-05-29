@@ -1,6 +1,6 @@
 ---
 title: "Test Post"
-date: 2018-05-21T20:28:10-04:00
+date: 2018-05-21 
 draft: false
 ---
 

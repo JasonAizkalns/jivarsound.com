@@ -1,5 +1,6 @@
 ---
 title: "Testing #2"
+date: 2018-05-29
 draft: false
 ---
 
