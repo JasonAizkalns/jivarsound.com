@@ -1,0 +1,32 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>{{ .Title }}</title>
+</head>
+<body class="" style="background: url(/images/bg.jpg) no-repeat center center fixed; background-size: cover;">
+  {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
+  {{.Content}}
+  <section class="mw7 center avenir">
+  {{ range .Pages }}
+    <article class="bt bb b--black-10">
+      <a class="db pv4 ph3 ph0-l no-underline black dim" href="{{.URL}}">
+        <h1 class="lh-title">{{.Title}}</h1>
+        <p class="lh-copy">{{.Summary}}</p>
+      </a>
+    </article>
+          <!-- <a href="{{.URL}}">{{.Title}}</a>
+         </div>
+         <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+         <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+         <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+         <div style="color:grey; font-size:16px;">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+
+         <p style="font-size:18px;">{{.Summary}}</p>
+    </div> -->
+  {{ end }}
+  </section>
+  {{ partial "footer" . }}
+</body>
+</html>
