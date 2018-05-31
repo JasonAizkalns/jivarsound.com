@@ -9,23 +9,29 @@
   <title>contact j.ivar</title>
 </head>
 <body style="background: url(/images/bg.jpg) no-repeat center center fixed; background-size: cover;">
-  <main class="pa4">
-    <form id="contactform" class="avenir measure center" method="POST">
-      <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
-        <legend class="f4 fw6 ph0 mh0 ttu tracked">Get in touch</legend>
-        <div class="mt3">
-          <label class="db fw6 lh-copy f6" for="_replyto">Email</label>
-          <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-near-white w-100" type="email" name="_replyto" placeholder="Your email">
-        </div>
-        <div class="mv3">
-          <label class="db fw6 lh-copy f6" for="message">Message</label>
-          <textarea class="pa2 input-reset ba bg-transparent hover-bg-black hover-near-white w-100" name="message" placeholder="Your message"></textarea>
-        </div>
-        <input type="hidden" name="_subject" value="website contact"/>
-        <input type="text" name="_gotcha" style="display: none;"/>
-      </fieldset>
-      <button class="b ph3 pv2 input-reset ba b--black bg-transparent grow hover-bg-near-white pointer f6 dib" type="submit">Send</button>
-    </form>
+
+  <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4">
+    <h1 class="ph3 ph0-l ttu tracked mt0">Get in Touch</h1>
+    <section class="bt b--white-80">
+      <div class="pa2-ns ma2-ns pa1 pl0 pr0 ma1">
+        <form id="contactform" class="avenir measure center" method="POST">
+          <fieldset id="sign_up" class="b--transparent ph0 mh0">
+            <!-- <legend class="f4 fw6 ph0 mh0 ttu tracked">Get in touch</legend> -->
+            <div class="mt3">
+              <label class="db fw6 lh-copy f6" for="_replyto">Email</label>
+              <input class="pa2 input-reset bg-near-white hover-bg-lightest-blue hover-near-black w-100" type="email" name="_replyto" placeholder="Your email">
+            </div>
+            <div class="mv3">
+              <label class="db fw6 lh-copy f6" for="message">Message</label>
+              <textarea class="pa2 input-reset bg-near-white hover-bg-lightest-blue hover-near-black w-100" rows="6" name="message" placeholder="Your message"></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="website contact"/>
+            <input type="text" name="_gotcha" style="display: none;"/>
+          </fieldset>
+          <button class="b ph3 pv2 input-reset bg-near-white grow hover-bg-lightest-blue pointer f6 dib" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
   </main>
 
   <script>
