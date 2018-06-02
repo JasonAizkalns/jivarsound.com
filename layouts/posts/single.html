@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ .Title }}</title>
+
 </head>
 <body style="background: url(/images/bg.jpg) no-repeat center center fixed; background-size: cover;">
   {{ partial "header" (dict "Kind" .Kind "Template" "Single") }}
@@ -17,11 +18,19 @@
     <div class="center measure">
       <h2 class="lh-title mb1 mt1 f3-l f4">{{.Title}}</h2>
       <time class="f6 db silver">{{ dateFormat "Jan 2, 2006" .Date }}</time>
-      <div class="athelas lh-copy f5-ns f6">{{.Content}}</div>
+      <div class="athelas lh-copy f5-ns f6" id="post-content">{{.Content}}</div>
     </div>
-
   </main>
+
+  <script type="text/javascript">
+    /* Style all the links in {{.Content}} */
+    var links = document.getElementById("post-content").getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+          links[i].className = "link light-blue";
+    }
+  </script>
 
   {{ partial "footer" . }}
 </body>
+
 </html>
