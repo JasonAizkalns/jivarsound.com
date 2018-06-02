@@ -26,7 +26,10 @@
     /* Style all the links in {{.Content}} */
     var links = document.getElementById("post-content").getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
-          links[i].className = "link light-blue";
+      links[i].className = "link light-blue";
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
     }
   </script>
 
