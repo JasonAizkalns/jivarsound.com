@@ -1,12 +1,13 @@
 <html>
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <meta name="description"
-           content="The official blog for j.ivar -- musician, producer, songwriter, and studio owner.
-           This blog provides a behind-the-scenes peak into his creative process.">
-     <title>{{ .Title }}</title>
+  {{ template "_internal/google_analytics.html" . }}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+       content="The official blog for j.ivar -- musician, producer, songwriter, and studio owner.
+       This blog provides a behind-the-scenes peak into his creative process.">
+  <title>{{ .Title }}</title>
 </head>
 <body class="" style="background: url(/images/bg.jpg) no-repeat center center fixed; background-size: cover;">
   {{ partial "header" (dict "Kind" .Kind "Template" "List") }}

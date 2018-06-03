@@ -2,6 +2,8 @@ baseURL = "https://www.jivarsound.com"
 languageCode = "en-us"
 title = "j.ivar sound"
 
+googleAnalytics = "UA-120278356-1"
+
 [params]
   AuthorName = "Jason I. Aizkalns"
   GitHubUser = "JasonAizkalns"
