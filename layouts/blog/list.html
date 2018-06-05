@@ -15,10 +15,47 @@
   <section class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4">
     <h1 class="ttu tracked mt0 f2-ns f3 mb3">Blog Posts</h1>
     <div class="bt b--white-80"></div>
-    {{ range .Pages }}
+    <!-- {{ range .Pages }}
     {{ .Render "li" }}
+    {{ end }} -->
+
+    {{ $paginator :=  .Paginator }}
+    {{ range ($paginator).Pages}}
+      {{ .Render "li" }}
     {{ end }}
-    
+
+    <!-- {{ template "_internal/pagination.html" . }} -->
+    {{ partial "pagination.html" ($paginator) }}
+
+<script>
+    console.log('-------- Hugo Debug: Theme = Twenty-Sixteen -------')
+    console.log('HUGO_ENV: ', '{{ (getenv "HUGO_ENV") | default "NOT SET" }}')
+    console.log('Long Env: ', '{{ (getenv "HUGO_ENV") | (getenv "ENVIRONMENT") | default .Site.Params.env | default "DEV" }}')
+    console.log('Is Prod?: ', '{{ (eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")) }}')
+    console.log('Page Kind: ', '{{.Page.Kind}}')
+    console.log('Current Section: ', '{{.Page.CurrentSection | default "NOT SET" }}')
+    console.log('Page Section: ', '{{.Page.Section | default "NOT SET" }}')
+    console.log('Page Type: ', '{{.Page.Type}}')
+    console.log('Page Dir: ', '{{.Page.Dir | default "/" }}{{ .File }}')
+    console.log('Page Wd: ', '{{.Page.FuzzyWordCount}}')
+    console.log('Page Home?: ', '{{.Page.IsHome}}')
+    console.log('Page Node?: ', '{{.Page.IsNode}}')
+    console.log('Page Page?: ', '{{.Page.IsPage}}')
+    console.log('Page Date: ', '{{.Page.Date}}')
+    console.log('Page Lastmod: ', '{{.Page.Lastmod}}')
+    console.log('Page Date=Lastmod?: ', '{{ (eq .Page.Lastmod .Page.Date) }}')
+    console.log('Page Date<>Lastmod?: ', '{{ (ne .Lastmod .Date) }}')
+    console.log('Section Parent: ', '{{ with .Parent}}{{ .Dir | default "/" }}{{ .File }}{{end}}')
+    console.log('Sharing Icons?: ', '{{ .Site.Params.Sharingicons | default "NOT DEFINED" }}')
+    console.log('Comments?: ', '{{ .Params.comments | default "NOT DEFINED" }}')
+    console.log('Disquss?: ', '{{ $.Site.DisqusShortname | default "NOT DEFINED" }}')
+    console.log('Google Analytics?: ', '{{ .Site.GoogleAnalytics | default "NOT DEFINED" }}')
+    console.log('Count of related pages: ', '{{if .Page.IsPage}}{{ len (.Site.RegularPages.Related .) }}{{end}}' )
+    console.log(': ', '')
+    console.log('---------------------------------------------------')
+    console.log('Paginator ', '{{ $paginator}}')
+</script>
+
 <!-- <a href="{{.URL}}">{{.Title}}</a>
 </div>
   <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>

@@ -4,6 +4,8 @@ title = "j.ivar sound"
 
 googleAnalytics = "UA-120278356-1"
 
+paginate = 3
+
 [params]
   AuthorName = "Jason I. Aizkalns"
   GitHubUser = "JasonAizkalns"

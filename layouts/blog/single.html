@@ -20,6 +20,14 @@
       <time class="f6 db silver">{{ dateFormat "Jan 2, 2006" .Date }}</time>
       <div class="athelas lh-copy f5-ns f6" id="post-content">{{.Content}}</div>
     </div>
+    <div class="bt pa2">
+      {{ if .PrevInSection }}
+        <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fl" href="{{ .PrevInSection.URL }}">← {{ .PrevInSection.Title }}</a>
+      {{end}}
+      {{ if .NextInSection }}
+        <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fr" href="{{ .NextInSection.URL }}">{{ .NextInSection.Title }} →</a>
+      {{ end }}
+    </div>
   </main>
 
   <script type="text/javascript">
