@@ -16,27 +16,9 @@
     <h1 class="ttu tracked mt0 f2-ns f3 mb3">Blog Posts</h1>
     <div class="bt b--white-80"></div>
     {{ range .Pages }}
-    <article class="">
-      <a class="db pv0 ph0-l no-underline near-white
-                bg-animate hover-bg-lightest-blue hover-near-black"
-          href="{{.URL}}">
-        <div class="pa2-ns ma2-ns pa1 pl0 pr0">
-          <h2 class="lh-title mb1 mt1 f3-l f4">{{.Title}}</h2>
-          <div class="f6 db silver">
-            <time>{{ dateFormat "Jan 2, 2006" .Date }}</time>
-            ◇ {{ .ReadingTime }} min read</span>
-          </div>
-          <!-- <time class="f6 db silver">{{ dateFormat "Jan 2, 2006" .Date }}</time> -->
-          <!-- <span class="f6 db silver">* {{ .ReadingTime }} min read</span> -->
-          <p class="lh-copy f5-ns f6 athelas">
-            {{.Summary}}
-            <!-- {{ if .Truncated }} <span class="i"><br>(...more...)</span>{{end}} -->
-          </p>
-        </div>
-        <div class="bt b--white-80"></div>
-      </a>
-    </article>
-
+    {{ .Render "li" }}
+    {{ end }}
+    
 <!-- <a href="{{.URL}}">{{.Title}}</a>
 </div>
   <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
@@ -47,7 +29,7 @@
   <p style="font-size:18px;">{{.Summary}}</p>
 </div> -->
 
-    {{ end }}
+
   </section>
   {{ partial "footer" . }}
 </body>

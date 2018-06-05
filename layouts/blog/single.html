@@ -27,6 +27,7 @@
     var links = document.getElementById("post-content").getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
       links[i].className = "link light-blue";
+      /* Set target to blank if linking to external site */
       if (links[i].hostname != window.location.hostname) {
         links[i].target = '_blank';
       }
