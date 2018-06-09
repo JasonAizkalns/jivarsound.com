@@ -6,7 +6,7 @@
     <!-- <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description> -->
     <description>Recent content from j.ivar | jivarsound | blog </description>
     <image>
-      <url>https://www.jivarsound.com/images/logo%20circle%20800%20x%20800.png</url>
+      <url>https://www.jivarsound.com/images/logo circle 800 x 800.png</url>
       <title>jivarsound blog</title>
       <link>{{ .Permalink }}</link>
     </image>
