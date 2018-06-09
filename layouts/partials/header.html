@@ -23,7 +23,7 @@
 
   {{ with .OutputFormats.Get "rss" -}}
     <!-- {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }} -->
-    {{ printf `<link rel="%s" type="%s+%s" href="%sblog/index.xml" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix $.Site.BaseURL $.Site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s+%s" href="%s/blog/index.xml" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix $.Site.BaseURL $.Site.Title | safeHTML }}
   {{ end -}}
 
 
