@@ -7,8 +7,10 @@
     <description>Recent content from j.ivar | jivarsound | blog </description>
     <image>
       <url>https://www.jivarsound.com/images/logo circle 800 x 800.png</url>
-      <title>jivarsound blog</title>
+      <title>jivarsound</title>
       <link>{{ .Permalink }}</link>
+      <width>800</width>
+      <height>800</height>
     </image>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
