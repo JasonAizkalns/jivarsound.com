@@ -11,6 +11,9 @@
   <meta name="description" content="{{ .Summary }}">
   {{ else if eq .URL "/blog/" }}
   <meta name="description" content="The official blog for j.ivar -- musician, producer, songwriter, and studio owner. This blog provides a behind-the-scenes peak into his creative process.">
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
   {{ else }}
   <meta name="description" content="The official website for j.ivar -- musician, producer, songwriter, and studio owner. This site showcases his work. It also contains a blog that provides a behind-the-scenes peak into his creative process.">
   {{ end }}
@@ -20,11 +23,6 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
   <link rel="stylesheet" href="/css/main.css">
 
-  {{ if eq .Type "post" }}
-    {{ with .OutputFormats.Get "rss" -}}
-      {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
-  {{ end }}
 
   <title>{{ .Title }}</title>
 </head>
