@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL | sanitizeurl }}
+
+<main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4">
+  <h1 class="ttu tracked mt0 f2-ns f3 mb3">{{ .Title }}</h1>
+  <div class="bt b--white-80 pb3"></div>
+  <section class="center measure">
+    <ul>
+      {{ $data := .Data }}
+      {{ range $key, $value := .Data.Terms }}
+      <li class="list pa1"><a class="link near-black dib bg-lightest-blue br2 pt0 pb0 pl1 pr1 dim" href="{{ $baseurl }}/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> ({{ len $value }})</li>
+      {{ end }}
+    </ul>
+  </section>
+</main>
+
+</div>
+</body>
+<
+{{ partial "footer.html" . }}

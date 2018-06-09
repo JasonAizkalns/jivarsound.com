@@ -4,7 +4,7 @@
     <title>j.ivar | jivarsound | blog </title>
     <link>{{ .Permalink }}</link>
     <!-- <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description> -->
-    <description>Recent content from j.ivar | jivarsound | blog </description>
+    <description>Recent content from j.ivar | jivarsound | blog | jivarsound.com</description>
     <image>
       <url>https://www.jivarsound.com/images/logo circle 800 x 800.png</url>
       <title>jivarsound</title>

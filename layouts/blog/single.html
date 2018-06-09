@@ -3,7 +3,11 @@
   <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4">
     <div class="center measure">
       <h2 class="lh-title mb1 mt1 f3-l f4">{{.Title}}</h2>
-      <time class="f6 db silver">{{ dateFormat "Jan 2, 2006" .Date }}</time>
+      <div class="f6 db silver">
+        <time>{{ dateFormat "Jan 2, 2006" .Date }}</time>
+        ◇ {{ .ReadingTime }} min read</span>
+      </div>
+      {{ partial "tags.html" . }}
       <div class="athelas lh-copy f5-ns f6" id="post-content">{{.Content}}</div>
     </div>
     <div class="bt pa2 f5-ns f6 cf">
@@ -21,7 +25,7 @@
     /* Style all the links in {{.Content}} */
     var links = document.getElementById("post-content").getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
-      links[i].className = "link light-blue";
+      links[i].className = "link light-blue hover-bg-lightest-blue hover-near-black";
       /* Set target to blank if linking to external site */
       if (links[i].hostname != window.location.hostname) {
         links[i].target = '_blank';

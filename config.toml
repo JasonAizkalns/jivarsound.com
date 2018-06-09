@@ -11,3 +11,7 @@ paginate = 5
 
 [author]
   name = "Jason I. Aizkalns"
+
+[permalinks]
+  # :title is used if :slug is not defined in post frontmatter
+  blog = "/:section/:year/:month/:slug/"

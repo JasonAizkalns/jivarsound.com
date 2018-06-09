@@ -1,6 +1,7 @@
 ---
 title: "The Making of 'Anthem Redux'"
 date: 2018-06-09
+tags: ["one", "two", "three"]
 ---
 A few weeks back, I entered a [MetaPop](https://metapop.com/) competition --
 specifically, the producer competition, [Produce This #7](https://metapop.com/pages/promos/native-sessions-bars).
