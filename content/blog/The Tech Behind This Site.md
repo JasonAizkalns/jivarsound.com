@@ -1,7 +1,7 @@
 ---
 title: "The Tech Behind This Site"
 date: 2018-05-26
-tags: ["one", "two", "three"]
+tags: ["the making of", "tech", "code"]
 ---
 [Hello World!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) 😜
 
