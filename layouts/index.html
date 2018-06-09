@@ -1,26 +1,43 @@
 {{ partial "header" . }}
 
-<section class="avenir mw5 mw7-ns center mt4 mb3 ph5-ns">
+  <!-- <div class="container" style="display: flex; align-items: center; justify-content: center; height: 100vh;"> -->
+  <section class="avenir tc">
 
-  </p>
-  <a href="/" class="link tc db pa3 pt0">
-    <img class="grow hover-white w5 h5" src="images/logo circle 800 x 800.svg" alt="[IMAGE] j.ivar logo image - black, gray, and white with mountains.">
-  </a>
+    <a href="/" class="link">
+      <img class="grow hover-white w-40-l w-60" src="images/logo circle 800 x 800.svg" alt="[IMAGE] j.ivar logo image - black, gray, and white with mountains.">
+    </a>
 
-  <div class="center">
-    <div class="center white tc pb2">Anthem Redux (Snippet)</div>
+      <p class="center near-white tc">Anthem Redux (Snippet)</p>
+    <div class="w-60-ns w-80 center">
+      <audio class="js-player" src="audio/anthem redux.wav" loop></audio>
+    </div>
+
+  </section>
   </div>
-  <div class="w-50-ns center">
-    <audio class="js-player" src="audio/anthem redux.wav" loop></audio>
-  </div>
 
-</section>
+  <!-- <section class="avenir mw5 mw7-ns center mt4 mb3 ph5-ns">
+
+    <a href="/" class="link tc db pa3 pt4">
+      <img class="grow hover-white w5 h5" src="images/logo circle 800 x 800.svg" alt="[IMAGE] j.ivar logo image - black, gray, and white with mountains.">
+    </a>
+
+    <div class="center">
+      <div class="center white tc pb2">Anthem Redux (Snippet)</div>
+    </div>
+    <div class="w-50-ns center">
+      <audio class="js-player" src="audio/anthem redux.wav" loop></audio>
+    </div>
+
+  </section> -->
+
+
 
 <script src="https://cdn.plyr.io/3.3.10/plyr.js"></script>
 <script type="text/javascript">
   const players = new Plyr.setup('.js-player');
 </script>
 
+</div>
 {{ partial "footer" . }}
 </body>
 </html>

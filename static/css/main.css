@@ -7,14 +7,17 @@ body {
   flex-direction: column;
 }
 .content {
+  display: flex;
   flex: 1 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 .footer {
   flex-shrink: 0;
 }
 
 /******************************************
-** plyr.io 
+** plyr.io
 *******************************************/
 
 .plyr--full-ui input[type=range] {
