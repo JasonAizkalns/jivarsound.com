@@ -14,6 +14,7 @@
         <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fr" href="{{ .NextInSection.URL }}">{{ .NextInSection.Title }} →</a>
       {{ end }}
     </div>
+    <div id="graphcomment"></div>
   </main>
 
   <script type="text/javascript">
@@ -26,6 +27,17 @@
         links[i].target = '_blank';
       }
     }
+  </script>
+
+  <script type="text/javascript">
+    /* - - - CONFIGURATION VARIABLES: MAKE SURE THE ID IS YOURS - - - */
+    window.graphcomment_id = 'jivarsound';
+    /* - - - DON'T EDIT BELOW THIS LINE - - - */
+    (function() {
+      var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+      gc.src = 'https://graphcomment.com/js/integration.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+    })();
   </script>
 
   <script src="https://cdn.plyr.io/3.3.10/plyr.js"></script>
