@@ -2,7 +2,6 @@
 title: "The Tech Behind This Site"
 date: 2018-05-20
 ---
-
 [Hello World!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) 😜
 
 Be forewarned, this is *not* the typical theme/genre behind these posts, but my

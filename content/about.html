@@ -12,21 +12,21 @@
   <title>About j.ivar</title>
 </head>
 <body style="background: url(/images/bg.jpg) no-repeat center center fixed; background-size: cover;">
-  <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4">
+  <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4" id="about-content">
     <h1 class="ttu tracked mt0 f2-ns f3 mb3">About j.ivar</h1>
     <div class="bt b--white-80 pb3"></div>
-    <section class="center measure" id="about-content">
+    <section class="center measure">
       <h2 class="lh-title mb1 mt1 f3-l f4">Backdrop</h2>
       <p class="lh-copy f5-ns f6 athelas">
         Admittedly, “j.ivar” is a terse and grammatically incorrect
         {{< link eponym "https://www.merriam-webster.com/dictionary/eponym" >}} for
         the artist’s given name – Jason Ivar Aizkalns. The latent mountain
         imagery and branding is a nod to his {{< link Latvian
-        "https://en.wikipedia.org/wiki/Latvia" >}} heritage. {{< link "Aizkalns loosely translate to \"beyond the hill\"" "http://www.celmina.com/genealogy/2010/09/surname-saturday-aiz/" >}} or,
-        by virtue of some creative liberties, “beyond the mountain”. While
-        syntactically and visually these ideas are paternal, we recognize that
+        "https://en.wikipedia.org/wiki/Latvia" >}} heritage. {{< link "Aizkalns loosely translates to \"beyond the hill\"" "http://www.celmina.com/genealogy/2010/09/surname-saturday-aiz/" >}} or,
+        using of some creative liberties, “beyond the mountain”. While
+        semantically and visually these ideas are paternal, we recognize that
         any man is equal parts mother and father. Arguably, j.ivar’s musical
-        inclination is more maternal in nature and draws upon a rich family
+        drive is more maternal in nature and draws upon a rich family
         history in this fantastic art.
       </p>
       <p class="lh-copy f5-ns f6 athelas">
@@ -116,7 +116,7 @@
         {{< link actuary "https://www.beanactuary.org/what/" >}} for
         {{< link Progressive "https://www.progressive.com/" >}}.
         Life carried on and j.ivar relocated to
-        {{< link "Berks County, Pennylvania" "https://en.wikipedia.org/wiki/Berks_County,_Pennsylvania" >}}Berks County, Pennsylvania where he
+        {{< link "Berks County, Pennsylvania" "https://en.wikipedia.org/wiki/Berks_County,_Pennsylvania" >}} where he
         would marry that lovely young lady. There he would go on to earn his
         {{< link MBA "https://en.wikipedia.org/wiki/Master_of_Business_Administration" >}} from
         {{< link "Alvernia University" "http://www.alvernia.edu/" >}} and, through a
@@ -134,7 +134,7 @@
   <script type="text/javascript">
     var links = document.getElementById("about-content").getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
-      // links[i].className = "link light-blue";
+      links[i].className = "link light-blue hover-bg-lightest-blue hover-near-black";
       /* Set target to blank if linking to external site */
       if (links[i].hostname != window.location.hostname) {
         links[i].target = '_blank';

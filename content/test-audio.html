@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{ template "_internal/google_analytics.html" . }}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="About j.ivar -- musician, producer, songwriter, and studio owner. Brief biography of the artist.">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.3.10/plyr.css">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <title>Test Audio</title>
+</head>
+<body style="background: url(/images/bg.jpg) no-repeat center center fixed; background-size: cover;">
+  <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4" id="about-content">
+    <h1 class="ttu tracked mt0 f2-ns f3 mb3">Test Audio</h1>
+    <div class="bt b--white-80 pb3"></div>
+
+
+
+    <span class="pa2">
+      <audio class="js-player" src="/audio/sample1.wav"></audio>
+    </span>
+
+    <audio class="js-player" src="/audio/sample2.wav" controls></audio>
+
+
+
+  </main>
+
+  <script src="https://cdn.plyr.io/3.3.10/plyr.js"></script>
+  <script type="text/javascript">
+    const players = new Plyr.setup('.js-player');
+  </script>
+
+  {{ partial "footer" . }}
+</body>
+</html>

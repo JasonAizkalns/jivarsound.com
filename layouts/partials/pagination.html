@@ -1,13 +1,13 @@
 <nav class="tc center ttu tracked f6 pt4">
 
   {{if .HasPrev}}
-  <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 ml2 mr2" href="{{ .Prev.URL }}">Newer</a>
+  <a class="link light-blue hover-bg-lightest-blue hover-near-black pl2 pr2 ml2 mr2" href="{{ .Prev.URL }}">Newer</a>
   {{end}}
 
   <span class="">Page {{ .PageNumber }} of {{.TotalPages}}</span>
 
   {{if .HasNext}}
-    <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 ml2 mr2" href="{{ .Next.URL }}">Older</a>
+    <a class="link light-blue hover-bg-lightest-blue hover-near-black pl2 pr2 ml2 mr2" href="{{ .Next.URL }}">Older</a>
   {{end}}
 
 </nav>

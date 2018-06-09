@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partial "header" . }}
 
 <section class="avenir mw5 mw7-ns center mt4 mb3 ph5-ns">
 
@@ -7,11 +7,22 @@
     <img class="grow hover-white w5 h5" src="images/logo circle 800 x 800.svg" alt="[IMAGE] j.ivar logo image - black, gray, and white with mountains.">
   </a>
 
-  <div class="ma2 w-50 center">
+  <div class="center">
     <div class="center white tc pb2">Anthem Redux (Snippet)</div>
-    <audio class="w-100 white-60 hover-white pointer" controls loop src="audio/anthem redux.wav" type="audio/wav"></audio>
   </div>
+  <div class="w-50-ns center">
+    <audio class="js-player" src="audio/anthem redux.wav" loop></audio>
+  </div>
+
+
 
 </section>
 
-{{ partial "footer.html" . }}
+<script src="https://cdn.plyr.io/3.3.10/plyr.js"></script>
+<script type="text/javascript">
+  const players = new Plyr.setup('.js-player');
+</script>
+
+{{ partial "footer" . }}
+</body>
+</html>

@@ -12,3 +12,15 @@ body {
 .footer {
   flex-shrink: 0;
 }
+
+/* Audio Player */
+
+
+.plyr--full-ui input[type=range] {
+  color: #96CCFF;
+}
+
+.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+  background: #96CCFF;
+  color: #333333;
+}

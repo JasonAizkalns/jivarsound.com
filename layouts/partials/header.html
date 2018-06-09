@@ -5,15 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description"
-        content="The official website for j.ivar -- musician, producer, songwriter, and studio owner. This site showcases his work.
-        It also contains a blog that provides a behind-the-scenes peak into his creative process.">
+  {{ if .Description }}
+  <meta name="description" content="{{ .Description }}">
+  {{ else if .IsPage }}
+  <meta name="description" content="{{ .Summary }}">
+  {{ else if eq .URL "/blog/" }}
+  <meta name="description" content="The official blog for j.ivar -- musician, producer, songwriter, and studio owner. This blog provides a behind-the-scenes peak into his creative process.">
+  {{ else }}
+  <meta name="description" content="The official website for j.ivar -- musician, producer, songwriter, and studio owner. This site showcases his work. It also contains a blog that provides a behind-the-scenes peak into his creative process.">
+  {{ end }}
   <meta name="google-site-verification" content="jooeyFWU8yn0Y80hIcxpgj51SPmlVpi5A1-6rgcpbo4" />
 
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.3.10/plyr.css">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
   <link rel="stylesheet" href="/css/main.css">
 
-  <title>j.ivar</title>
+  <title>{{ .Title }}</title>
 </head>
 <body class="" style="background: url(/images/bg.jpg) no-repeat center center fixed; background-size: cover;">
   <div class="content">
