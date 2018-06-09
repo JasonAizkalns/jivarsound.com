@@ -11,7 +11,6 @@
   <meta name="description" content="{{ .Summary }}">
   {{ else if eq .URL "/blog/" }}
   <meta name="description" content="The official blog for j.ivar -- musician, producer, songwriter, and studio owner. This blog provides a behind-the-scenes peak into his creative process.">
-
   {{ else }}
   <meta name="description" content="The official website for j.ivar -- musician, producer, songwriter, and studio owner. This site showcases his work. It also contains a blog that provides a behind-the-scenes peak into his creative process.">
   {{ end }}
@@ -25,7 +24,6 @@
     <!-- {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }} -->
     {{ printf `<link rel="%s" type="%s+%s" href="%s/blog/index.xml" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix $.Site.BaseURL $.Site.Title | safeHTML }}
   {{ end -}}
-
 
   <title>{{ .Title }}</title>
 </head>
