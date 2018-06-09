@@ -19,6 +19,9 @@
   <link rel="stylesheet" href="https://cdn.plyr.io/3.3.10/plyr.css">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
   <link rel="stylesheet" href="/css/main.css">
+  {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
 
   <title>{{ .Title }}</title>
 </head>
