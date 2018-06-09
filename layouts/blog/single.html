@@ -6,7 +6,7 @@
       <time class="f6 db silver">{{ dateFormat "Jan 2, 2006" .Date }}</time>
       <div class="athelas lh-copy f5-ns f6" id="post-content">{{.Content}}</div>
     </div>
-    <div class="bt pa2">
+    <div class="bt pa2 f5-ns f6 cf">
       {{ if .PrevInSection }}
         <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fl" href="{{ .PrevInSection.URL }}">← {{ .PrevInSection.Title }}</a>
       {{end}}
@@ -14,7 +14,7 @@
         <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fr" href="{{ .NextInSection.URL }}">{{ .NextInSection.Title }} →</a>
       {{ end }}
     </div>
-    <div class="bt" id="graphcomment"></div>
+    <div class="bt pt3" id="graphcomment"></div>
   </main>
 
   <script type="text/javascript">
