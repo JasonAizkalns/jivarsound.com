@@ -1,5 +1,6 @@
 ---
 title: About | j.ivar
+description: About j.ivar -- musician, producer, songwriter, and studio owner. Brief biography of the artist.
 ---
 <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4" id="about-content">
   <h1 class="ttu tracked mt0 f2-ns f3 mb3">About j.ivar</h1>

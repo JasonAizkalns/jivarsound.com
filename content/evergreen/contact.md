@@ -1,5 +1,6 @@
 ---
 title: Contact | j.ivar
+description: Contact j.ivar -- musician, producer, songwriter, and studio owner. Fill out this form for business inquiries, questions, comments, or just to say 'hey'.
 ---
 <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4">
   <h1 class="ttu tracked mt0 f2-ns f3 mb3">Get in Touch</h1>
