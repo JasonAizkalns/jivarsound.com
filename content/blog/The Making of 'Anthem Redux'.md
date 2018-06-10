@@ -1,11 +1,12 @@
 ---
 title: "The Making of 'Anthem Redux'"
 date: 2018-06-09
-tags: ["the making of", "music", "hip-hop", "competition"]
+tags: ["the making of", "production", "hip-hop", "competition", "creativity"]
 ---
 A few weeks back, I entered a [MetaPop](https://metapop.com/) competition --
 specifically, the producer competition, [Produce This #7](https://metapop.com/pages/promos/native-sessions-bars).
 This was a fun way to get back into music, keep a timeline, and do something creative.
+
 The rules were simple:
 
 - Download a sample pack.
