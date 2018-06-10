@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partial "header" . }}
 
   <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4">
 
@@ -8,7 +8,7 @@
         <time>{{ dateFormat "Jan 2, 2006" .Date }}</time>
         ◇ {{ .ReadingTime }} min read</span>
       </div>
-      {{ partial "tags.html" . }}
+      {{ partial "tags" . }}
       <div class="athelas lh-copy f5-ns f6" id="post-content">
         {{.Content}}
       </div>
