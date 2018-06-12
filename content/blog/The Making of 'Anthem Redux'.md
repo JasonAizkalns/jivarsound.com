@@ -31,7 +31,11 @@ the provided samples provided some new life and inspiration. In addition, only h
 The primary sample behind all of this is a snippet from "Ensemble OldWeaver". The original,
 sounds like this:
 
-{{< audio "making-of-anthem-redux/ensemble-oldweaver-orig.wav" >}}
+<audio controls>
+  <source src="/audio/making-of-anthem-redux/ensemble-oldweaver-tuned.mp3" type="audio/mp3">
+</audio>
+
+<!-- {{< audio "making-of-anthem-redux/ensemble-oldweaver-orig.wav" >}} -->
 
 Chopped up, re-tuned, and at a different tempo, courtesy of [serato sample](https://serato.com/sample) yields:
 
