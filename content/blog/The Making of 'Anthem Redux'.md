@@ -31,9 +31,23 @@ the provided samples provided some new life and inspiration. In addition, only h
 The primary sample behind all of this is a snippet from "Ensemble OldWeaver". The original,
 sounds like this:
 
+audio here
 <audio controls>
   <source src="/audio/making-of-anthem-redux/ensemble-oldweaver-tuned.mp3" type="audio/mp3">
 </audio>
+
+hosted on g-drive
+<audio controls>
+  <source src="https://drive.google.com/file/d/1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw/preview" type="audio/mp3">
+</audio>
+
+with iframe
+<iframe
+  frameborder="0"
+  width="400"     
+  height="100"
+  src="https://drive.google.com/file/d/1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw/preview">    
+</iframe>
 
 <!-- {{< audio "making-of-anthem-redux/ensemble-oldweaver-orig.wav" >}} -->
 
