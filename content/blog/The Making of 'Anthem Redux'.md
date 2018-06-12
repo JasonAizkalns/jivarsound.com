@@ -38,7 +38,7 @@ audio here
 
 hosted on g-drive
 <audio controls>
-  <source src="https://drive.google.com/file/d/1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw/preview" type="audio/mp3">
+  <source src="https://drive.google.com/uc?export=download&id=1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw" type="audio/mp3">
 </audio>
 
 with iframe
@@ -48,6 +48,10 @@ with iframe
   height="100"
   src="https://drive.google.com/file/d/1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw/preview">    
 </iframe>
+
+hosted on g-drive with plyr.io
+{{< audio "https://drive.google.com/uc?export=download&id=1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw" >}}
+
 
 <!-- {{< audio "making-of-anthem-redux/ensemble-oldweaver-orig.wav" >}} -->
 
