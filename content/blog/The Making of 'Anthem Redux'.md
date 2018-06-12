@@ -89,17 +89,3 @@ I'll find a way to make these stand out a bit more.
 
 I hope you enjoyed the walkthrough. If you have any questions or comments feel
 free to drop a line a below or you can also [reach out to me here](/contact).
-
-<script src="https://cdn.plyr.io/3.3.10/plyr.js">
-
-</script>
-
-<script type="text/javascript">
-
-  const players = new Plyr.setup('.js-player');
-
-</script>
-
-
-
-
