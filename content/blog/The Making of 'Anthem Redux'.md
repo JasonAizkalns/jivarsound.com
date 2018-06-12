@@ -31,29 +31,7 @@ the provided samples provided some new life and inspiration. In addition, only h
 The primary sample behind all of this is a snippet from "Ensemble OldWeaver". The original,
 sounds like this:
 
-audio here
-<audio controls>
-  <source src="/audio/making-of-anthem-redux/ensemble-oldweaver-tuned.mp3" type="audio/mp3">
-</audio>
-
-hosted on g-drive
-<audio controls>
-  <source src="https://drive.google.com/uc?export=download&id=1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw" type="audio/mp3">
-</audio>
-
-with iframe
-<iframe
-  frameborder="0"
-  width="400"     
-  height="100"
-  src="https://drive.google.com/file/d/1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw/preview">    
-</iframe>
-
-hosted on g-drive with plyr.io
-{{< audio "https://drive.google.com/uc?export=download&id=1WrfBybpvlaP133zOOHL3rTrdNiwFUbQw" >}}
-
-
-<!-- {{< audio "making-of-anthem-redux/ensemble-oldweaver-orig.wav" >}} -->
+{{< audio "making-of-anthem-redux/ensemble-oldweaver-orig.wav" >}}
 
 Chopped up, re-tuned, and at a different tempo, courtesy of [serato sample](https://serato.com/sample) yields:
 
@@ -87,7 +65,7 @@ reversed the snare + tuning + timing + spread to yield...
 ...which I augmented with some other samples from [F9 Audio](https://www.f9-audio.com/).
 
 ## Guitars
-The guitar lead is the "Bluesy Lead" patch from [Omnisphere](https://www.spectrasonics.net/products/omnisphere/) -- with only small sonic enhancements + color. [Spectraonics](https://www.spectrasonics.net/) makes some really nice toys!
+The guitar lead is the "Bluesy Lead" patch from [Omnisphere](https://www.spectrasonics.net/products/omnisphere/) -- with only small sonic enhancements + color. [Spectrasonics](https://www.spectrasonics.net/) makes some really nice toys!
 
 {{< audio "making-of-anthem-redux/guitars.mp3" >}}
 
@@ -112,6 +90,15 @@ I'll find a way to make these stand out a bit more.
 I hope you enjoyed the walkthrough. If you have any questions or comments feel
 free to drop a line a below or you can also [reach out to me here](/contact).
 
+<script src="https://cdn.plyr.io/3.3.10/plyr.js">
+
+</script>
+
+<script type="text/javascript">
+
+  const players = new Plyr.setup('.js-player');
+
+</script>
 
 
 
