@@ -32,7 +32,7 @@ pre-built theme. As a result, if you explore the code, you'll likely observe a l
 of bad practices and less-than-ideal utilization of [templates](https://gohugo.io/templates/)
 and [partials](https://gohugo.io/templates/partials/).
 
-Any non-branded (e.g. SoundCloud, clip.it, etc.) sound bits are made possible
+Any non-branded (e.g. SoundCloud, clyp.it, etc.) sound bits are made possible
 by [plyr.io](https://plyr.io/) -- a simple, accessible, and customizable media
 player for video, audio, YouTube, and Vimeo.
 
