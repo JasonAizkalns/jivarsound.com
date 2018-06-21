@@ -16,4 +16,4 @@ paginate = 5
 
 [permalinks]
   # :title is used if :slug is not defined in post frontmatter
-  blog = "/:section/:year/:month/:slug/"
+  blog = "/:section/:year/:slug/"

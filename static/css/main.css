@@ -16,6 +16,16 @@ body {
   flex-shrink: 0;
 }
 
+.post-img {
+  position: relative;
+  opacity: 1;
+  z-index: 1;
+}
+
+.faded {
+  background-color: rgba(17, 17, 17, 0.9)
+}
+
 /******************************************
 ** plyr.io
 *******************************************/
