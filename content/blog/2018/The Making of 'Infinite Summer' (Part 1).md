@@ -1,7 +1,6 @@
 ---
-title: "The Making of 'Infinite Summer' (Part 1)"
+title: "The Making of \"Infinite Summer\" (Part 1)"
 date: 2018-06-20
-draft: true
 tags: ["the making of", "production", "creativity", "songwriting", "process"]
 ---
 This song was supposed to be *very* different.
@@ -24,7 +23,7 @@ from Steve:
 Refusing to give up and relying on some late night [hypnagogic](https://en.wikipedia.org/wiki/Hypnagogia)
 creativity, I was finally getting somewhere and wrote a workable hook:
 
-{{< card-img "infinite-summer-hook.jpg" "The hook for Infinite Summer." >}}
+{{< card-img "infinite-summer-hook.jpg" "The hook for \"Infinite Summer\"." >}}
 
 I grabbed my iPhone, placed it on the table, and quickly recorded the following:
 

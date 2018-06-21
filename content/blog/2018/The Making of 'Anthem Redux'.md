@@ -1,5 +1,5 @@
 ---
-title: "The Making of 'Anthem Redux'"
+title: "The Making of \"Anthem Redux\""
 date: 2018-06-09
 tags: ["the making of", "production", "hip-hop", "competition", "creativity"]
 ---
