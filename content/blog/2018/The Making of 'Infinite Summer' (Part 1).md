@@ -9,11 +9,11 @@ It started when [Steve Peiffer](https://www.facebook.com/steve.peiffer.1) approa
 come up with a summer banger -- something that he could release down at the shore.
 We got together one night and...failed...we failed hard. What Steve wanted was...
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/M3o6jPwh4jHGw" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/group-edc-raves-M3o6jPwh4jHGw">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/M3o6jPwh4jHGw" style="width:100%; height=100%; position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 ...but every chord progression and melody I kept writing was more...
 
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/3o6fJ2YXyzU0bxxywg" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hyperrpg-dance-dancing-3o6fJ2YXyzU0bxxywg"></a></p>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/3o6fJ2YXyzU0bxxywg" style="width:100%; height=100%; position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 We eventually called the session a bust and I left with some ideas and lyrics
 from Steve:
