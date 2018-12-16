@@ -6,7 +6,7 @@
       <h2 class="lh-title mb1 mt1 f3-l f4">{{.Title}}</h2>
       <div class="f6 db silver">
         <time>{{ dateFormat "Jan 2, 2006" .Date }}</time>
-        ◇ {{ .ReadingTime }} min read</span>
+        ◇ {{ .ReadingTime }} min read
       </div>
       {{ partial "tags" . }}
       <div class="athelas lh-copy f5-ns f6" id="post-content">
@@ -25,7 +25,7 @@
     <div class="bt pt3" id="graphcomment"></div>
   </main>
 
-  <script type="text/javascript">
+  <script>
     /* Style all the links in {{.Content}} */
     var links = document.getElementById("post-content").getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
@@ -37,7 +37,7 @@
     }
   </script>
 
-  <script type="text/javascript">
+  <script>
     /* - - - CONFIGURATION VARIABLES: MAKE SURE THE ID IS YOURS - - - */
     window.graphcomment_id = 'jivarsound';
     /* - - - DON'T EDIT BELOW THIS LINE - - - */
@@ -49,7 +49,7 @@
   </script>
 
   <script src="https://cdn.plyr.io/3.3.10/plyr.js"></script>
-  <script type="text/javascript">
+  <script>
     const players = new Plyr.setup('.js-player');
   </script>
 
