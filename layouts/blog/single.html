@@ -5,7 +5,7 @@
     <div class="center measure">
       <h2 class="lh-title mb1 mt1 f3-l f4">{{.Title}}</h2>
       <div class="f6 db silver">
-        <time>{{ dateFormat "Jan 2, 2006" .Date }}</time>
+        <time datetime='{{ dateFormat "Jan 2, 2006" .Date }}'>{{ dateFormat "Jan 2, 2006" .Date }}</time>
         ◇ {{ .ReadingTime }} min read
       </div>
       {{ partial "tags" . }}
