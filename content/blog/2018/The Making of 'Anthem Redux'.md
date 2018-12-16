@@ -85,7 +85,9 @@ I'll find a way to make these stand out a bit more.
 {{< audio "making-of-anthem-redux/strings.mp3" >}}
 
 <p></p>
-<div class="tc">+++</div>
+<div class="tc">
++++
+</div>
 
 I hope you enjoyed the walkthrough. If you have any questions or comments feel
 free to drop a line below or you can also [reach out to me here](/contact).
