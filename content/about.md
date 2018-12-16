@@ -122,7 +122,7 @@ description: About j.ivar -- musician, producer, songwriter, and studio owner. B
   </section>
 </main>
 
-<script type="text/javascript">
+<script>
 
   var links = document.getElementById("about-content").getElementsByTagName("a");
   for (var i = 0; i < links.length; i++) {
