@@ -16,4 +16,11 @@ paginate = 5
 
 [permalinks]
   # :title is used if :slug is not defined in post frontmatter
-  blog = "/:section/:year/:slug/"
+  # blog = "/:section/:year/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+

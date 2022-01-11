@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>j.ivar sound</title>
+    <link>https://www.jivarsound.com/</link>
+    <description>Recent content on j.ivar sound</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <webfeeds:cover image="https://www.jivarsound.com/images/logo circle 800 x 800.png" />
+    <webfeeds:icon>https://www.jivarsound.com/images/logo no words 180 x 180.svg</webfeeds:icon>
+    <webfeeds:accentColor>111111</webfeeds:accentColor>
+    <image>
+      <link>https://www.jivarsound.com</link>
+      <title>j.ivar logo for jivarsound.com</title>
+      <url>https://www.jivarsound.com/images/logo-for-rss.png</url>
+      <description>j.ivar logo for jivarsound.com. mountains with j.ivar spelled beneath</description>
+      <height>144</height>
+      <width>144</width>
+    </image>
+    <language>en-us</language>
+    <managingEditor>j.ivar.sound@gmail.com (Jason I. Aizkalns)</managingEditor>
+    <webMaster>j.ivar.sound@gmail.com (Jason I. Aizkalns)</webMaster>
+    <copyright>j.ivar sound., All Rights Reserved. MIT License.</copyright>
+    <lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.jivarsound.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog | j.ivar</title>
+      <link>https://www.jivarsound.com/blog/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
+      <guid>https://www.jivarsound.com/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

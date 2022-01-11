@@ -2,6 +2,7 @@
 title: About | j.ivar
 description: About j.ivar -- musician, producer, songwriter, and studio owner. Brief biography of the artist.
 ---
+
 <main class="mw7-ns center avenir near-white bg-near-black o-90 w-90 pa4 mt4" id="about-content">
   <h1 class="ttu tracked mt0 f2-ns f3 mb3">About j.ivar</h1>
   <div class="bt b--white-80 pb3"></div>
@@ -117,20 +118,7 @@ description: About j.ivar -- musician, producer, songwriter, and studio owner. B
     <p class="lh-copy f5-ns f6 athelas">
       Today, j.ivar resides in
       {{< link "Sinking Spring, PA" "https://en.wikipedia.org/wiki/Sinking_Spring,_Pennsylvania" >}}
-      with his wife (Leslie), daughter (Hadley), and a bichon-pomeranian mix named Lilly.
+      with his wife (Leslie), daughter (Hadley), son (Foster), and a border-collie-poodle mix named Gibson.
     </p>
   </section>
 </main>
-
-<script>
-
-  var links = document.getElementById("about-content").getElementsByTagName("a");
-  for (var i = 0; i < links.length; i++) {
-    links[i].className = "link light-blue hover-bg-lightest-blue hover-near-black";
-    /* Set target to blank if linking to external site */
-    if (links[i].hostname != window.location.hostname) {
-      links[i].target = '_blank';
-    }
-  }
-
-</script>

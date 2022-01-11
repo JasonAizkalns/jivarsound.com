@@ -1,24 +1,41 @@
 {{ partial "header" . }}
 
-  <section class="avenir tc">
-
-    <a href="/" class="link">
-      <img class="grow hover-white w-40-l w-60" src="images/logo-circle-800-x-800.svg" alt="[IMAGE] j.ivar logo image - black, gray, and white with mountains.">
-    </a>
-
-      <p class="center near-white tc">Anthem Redux (Snippet)</p>
-    <div class="w-60-ns w-80 center">
-      <audio class="js-player" src="audio/anthem-redux.wav" loop></audio>
-    </div>
-
-  </section>
+  <div class="mw7-ns center avenir w-90">
+    <section class="near-white bg-near-black faded mt4 ph4">
+      <div class="cf">
+        <div class="fl w-100 w-50-ns">
+          <h1 class="fw2 mb0 lh-title">Welcome.</h1>
+          <p>Welcome to your new home for high-quality beats, instrumentals, and music production services for independent artists and creators.</p>
+        </div>
+        <div class="fr w-100 w-50-ns tc">
+          <img src="/images/studio-main.jpg" class="ma4 center" alt="j.ivar sound LLC main desk and room."/>
+        </div>
+      </div>
+    </section>
+    <section class="near-white bg-lightest-blue faded-near-white pa4" id="beat-store">
+      <h1 class="fw2 lh-title near-black mt0 tc">Need beats? We got you.</h1>
+      <iframe id="soundee_player" frameborder="0" src="https://soundee.com/player/3698?iframe=1" style="width:100%;height:600px;max-width:980px;box-shadow:rgba(0,0,0,.56) 0 0 30px;-webkit-box-shadow:rgba(0,0,0,.56) 0 0 30px;" allow="autoplay"></iframe>
+      <a class="f6 link bg-animate hover-bg-lightest-blue ba near-black db mw5-ns w-60 center tc pa2 mt4" href="/licensing">
+        <i class="fas fa-file-alt pr1"></i>
+        View Licensing Terms
+      </a>
+    </section>
+    <section class="near-white faded pa4">
+      <h1 class="fw2 white-90 mb0 lh-title">First time buying beats online?</h1>
+      <p class="lh-copy">
+        Check out <a href="/blog/everything-you-need-to-know-about-buying-beats-online" class="dib ba ph2 mh1 link light-blue hover-bg-lightest-blue hover-near-black">this article</a>
+        where I cover <span class="b moon-gray">everything</span> you
+        need to know about buying beats online.
+      </p>
+    </section>
+    <!-- <section class="center avenir near-black faded-near-white w-100 pa4">
+      <h1 class="fw2 lh-title near-black mt0 tc">Got free beats? Yep.</h1>
+      <img src="http://tachyons.io/img/super-wide.jpg" alt="A bright blue sky"/>
+    </section> -->
   </div>
+</div> <!--End of content-->
 
-<script src="https://cdn.plyr.io/3.3.10/plyr.js"></script>
-<script>
-  const players = new Plyr.setup('.js-player');
-</script>
-
+{{ partial "plyr" . }}
 {{ partial "footer" . }}
 </body>
 </html>

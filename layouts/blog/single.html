@@ -8,24 +8,24 @@
         <time datetime='{{ dateFormat "2006-01-02" .Date }}'>{{ dateFormat "Jan 2, 2006" .Date }}</time>
         ◇ {{ .ReadingTime }} min read
       </div>
-      {{ partial "tags" . }}
-      <div class="athelas lh-copy f5-ns f6" id="post-content">
+      {{ partial "tags2" . }}
+      <div class="athelas lh-copy f5-ns f6 pb4" id="post-content">
         {{.Content}}
       </div>
     </div>
 
     <div class="bt pa2 f5-ns f6 cf">
       {{ if .PrevInSection }}
-        <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fl" href="{{ .PrevInSection.URL }}">← {{ .PrevInSection.Title }}</a>
+        <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fl" href="{{ .PrevInSection.Permalink }}">← {{ .PrevInSection.Title }}</a>
       {{end}}
       {{ if .NextInSection }}
-        <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fr" href="{{ .NextInSection.URL }}">{{ .NextInSection.Title }} →</a>
+        <a class="link light-blue bg-animate hover-bg-lightest-blue hover-near-black pl2 pr2 fr" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} →</a>
       {{ end }}
     </div>
     <div class="bt pt3" id="graphcomment"></div>
   </main>
 
-  <script>
+  <!-- <script>
     /* Style all the links in {{.Content}} */
     var links = document.getElementById("post-content").getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
@@ -35,7 +35,7 @@
         links[i].target = '_blank';
       }
     }
-  </script>
+  </script> -->
 
   <script>
     /* - - - CONFIGURATION VARIABLES: MAKE SURE THE ID IS YOURS - - - */
@@ -48,12 +48,9 @@
     })();
   </script>
 
-  <script src="https://cdn.plyr.io/3.3.10/plyr.js"></script>
-  <script>
-    const players = new Plyr.setup('.js-player');
-  </script>
-
 </div>
+
+{{ partial "plyr" . }}
 {{ partial "footer" . }}
 </body>
 

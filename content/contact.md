@@ -29,4 +29,3 @@ description: Contact j.ivar -- musician, producer, songwriter, and studio owner.
   contactform.setAttribute('action', '//formspree.io/' + 'j.ivar.sound' + '@' + 'gmail' + '.' + 'com');
 
 </script>
-

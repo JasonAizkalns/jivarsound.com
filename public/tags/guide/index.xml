@@ -1,0 +1,68 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>guide on j.ivar sound</title>
+    <link>https://www.jivarsound.com/tags/guide/</link>
+    <description>Recent content in guide on j.ivar sound</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <webfeeds:cover image="https://www.jivarsound.com/images/logo circle 800 x 800.png" />
+    <webfeeds:icon>https://www.jivarsound.com/images/logo no words 180 x 180.svg</webfeeds:icon>
+    <webfeeds:accentColor>111111</webfeeds:accentColor>
+    <image>
+      <link>https://www.jivarsound.com</link>
+      <title>j.ivar logo for jivarsound.com</title>
+      <url>https://www.jivarsound.com/images/logo-for-rss.png</url>
+      <description>j.ivar logo for jivarsound.com. mountains with j.ivar spelled beneath</description>
+      <height>144</height>
+      <width>144</width>
+    </image>
+    <language>en-us</language>
+    <managingEditor>j.ivar.sound@gmail.com (Jason I. Aizkalns)</managingEditor>
+    <webMaster>j.ivar.sound@gmail.com (Jason I. Aizkalns)</webMaster>
+    <copyright>j.ivar sound., All Rights Reserved. MIT License.</copyright>
+    <lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.jivarsound.com/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What to Expect for Mixing and Mastering</title>
+      <link>https://www.jivarsound.com/blog/what-to-expect-for-mixing-and-mastering/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
+      <guid>https://www.jivarsound.com/blog/what-to-expect-for-mixing-and-mastering/</guid>
+      <description>&lt;p&gt;Submitting a track for mixing or mastering is daunting &amp;ndash; but if you follow a few simple guidelines, you can ensure a rewarding relationship and experience with your mixing or mastering engineer.&lt;/p&gt;
+&lt;p&gt;Every engineer is different when it comes to expectations, but our guidelines are shown below.&lt;/p&gt;
+&lt;h2 id=&#34;mixing-preparing-your-stems-for-mixing&#34;&gt;Mixing: Preparing Your Stems for Mixing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All stems must be in .wav or .aiff format. Please &lt;strong&gt;no lossy formats&lt;/strong&gt; (i.e., do not submit .aac, .mp3, .ogg, or .wma formats).&lt;/li&gt;
+&lt;li&gt;Do not use any limiting or compression on your master bus when bouncing your stems.&lt;/li&gt;
+&lt;li&gt;Ensure there is no clipping on any individual track or your master bus.&lt;/li&gt;
+&lt;li&gt;Turn off the &amp;ldquo;normalize&amp;rdquo; feature on individual tracks and your master output when bouncing.&lt;/li&gt;
+&lt;li&gt;If possible, provide your stems &amp;ldquo;dry&amp;rdquo; &amp;ndash; no reverb, delay, or side-chaining. This allow me to have the most flexibility when approaching your mix. All other FX and automation can remain.&lt;/li&gt;
+&lt;li&gt;You can combine similar sounds into the same stem at your discretion (e.g. hi-hats, sweeps, pads, leads, lead vocal, FX, etc.).&lt;/li&gt;
+&lt;li&gt;Please name all stems.&lt;/li&gt;
+&lt;li&gt;Files should be kept in the same resolution as the original project. For example, if your project was created at 24bit 96kHz, please submit your stems at 24bit 96kHz (.wav or .aiff).&lt;/li&gt;
+&lt;li&gt;Compress all stems into a .zip folder.&lt;/li&gt;
+&lt;li&gt;Please provide &lt;em&gt;at least one&lt;/em&gt; reference track (i.e., something commercially available or professionally released) in the same style so we have material to compare and utilize in our processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mastering-preparing-your-track-or-stems-for-mastering&#34;&gt;Mastering: Preparing your Track or Stems for Mastering&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Eliminate noise in the mix.&lt;/strong&gt; Go through your each track in your mix and eliminate all noises (e.g. pops, clicks, etc.). As necessary, use fades to cut or eliminate unwanted recorded noise. When you do this across all tracks in the mix stage, you keep the noise floor lower &amp;ndash; leaving some &amp;ldquo;breathing room&amp;rdquo; for equalization and compression at the mastering stage.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keep the mix clean and dynamic.&lt;/strong&gt; It can be tempting to use plugins on the master bus &amp;ndash; especially dynamic processors (e.g. compression) &amp;ndash; but they can quickly destroy your mix and make it difficult, if not impossible, for us to create a great master. Unless there&amp;rsquo;s a specific sound desired across the entire mix, it&amp;rsquo;s best to keep your master bus free of any processing (i.e., outboard or plug-ins).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Levels and headroom.&lt;/strong&gt; Strive for around -6 dB of headroom. The loudest part of your mix should peak at no more than -3 dB on the master bus (preferrably lower).&lt;/li&gt;
+&lt;li&gt;All stems must be in .wav or .aiff format. Please &lt;strong&gt;no lossy formats&lt;/strong&gt; (i.e., do not submit .aac, .mp3, .ogg, or .wma formats).&lt;/li&gt;
+&lt;li&gt;Do not use any limiting or compression on your master bus when bouncing your stems.&lt;/li&gt;
+&lt;li&gt;Turn off the &amp;ldquo;normalize&amp;rdquo; feature on individual tracks and your master output when bouncing.&lt;/li&gt;
+&lt;li&gt;If submitting stems, please consider the kick on its own stem. A typical 5-stem submission would be: kick, bass, vocals, music, FX.&lt;/li&gt;
+&lt;li&gt;Please name all stems.&lt;/li&gt;
+&lt;li&gt;Files should be kept in the same resolution as the original project. For example, if your project was created at 24bit 96kHz, please submit your stems at 24bit 96kHz (.wav or .aiff).&lt;/li&gt;
+&lt;li&gt;Compress all stems into a .zip folder.&lt;/li&gt;
+&lt;li&gt;Please provide &lt;em&gt;at least one&lt;/em&gt; reference track (i.e., something commercially available or professionally released) in the same style so we have material to compare and utilize in our processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Please do not hestitate to &lt;a href=&#34;https://www.jivarsound.com/contact&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black ba ph1 dib&#34;&gt;contact us&lt;/a&gt; with any questions or concerns.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

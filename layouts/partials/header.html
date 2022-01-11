@@ -9,10 +9,9 @@
   <meta name="description" content="{{ .Description }}">
   {{ else if .IsPage }}
   <meta name="description" content="{{ .Summary }}">
-  {{ else if eq .URL "/blog/" }}
-  <meta name="description" content="The official blog for j.ivar -- musician, producer, songwriter, and studio owner. This blog provides a behind-the-scenes peak into his creative process.">
+  <!-- <meta name="description" content="The official blog for j.ivar -- musician, producer, songwriter, and studio owner. This blog provides a behind-the-scenes peak into his creative process."> -->
   {{ else }}
-  <meta name="description" content="The official website for j.ivar -- musician, producer, songwriter, and studio owner. This site showcases his work. It also contains a blog that provides a behind-the-scenes peak into his creative process.">
+  <meta name="description" content="The official website for j.ivar sound LLC. j.ivar is a musician, producer, songwriter, and studio owner. This site showcases his work including a beat store for leasing and licensing instrumentals for hip-hop, r&b, pop, and other genres of music. It also contains a blog that provides a behind-the-scenes peak into his creative process.">
   {{ end }}
   <meta name="google-site-verification" content="jooeyFWU8yn0Y80hIcxpgj51SPmlVpi5A1-6rgcpbo4" />
 
@@ -24,12 +23,14 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="https://cdn.plyr.io/3.3.10/plyr.css">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/icomoon.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   {{ with .OutputFormats.Get "rss" -}}
-      {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
   <title>{{ .Title }}</title>

@@ -1,0 +1,175 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+  <channel>
+    <title>new-artists on j.ivar sound</title>
+    <link>https://www.jivarsound.com/tags/new-artists/</link>
+    <description>Recent content in new-artists on j.ivar sound</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <webfeeds:cover image="https://www.jivarsound.com/images/logo circle 800 x 800.png" />
+    <webfeeds:icon>https://www.jivarsound.com/images/logo no words 180 x 180.svg</webfeeds:icon>
+    <webfeeds:accentColor>111111</webfeeds:accentColor>
+    <image>
+      <link>https://www.jivarsound.com</link>
+      <title>j.ivar logo for jivarsound.com</title>
+      <url>https://www.jivarsound.com/images/logo-for-rss.png</url>
+      <description>j.ivar logo for jivarsound.com. mountains with j.ivar spelled beneath</description>
+      <height>144</height>
+      <width>144</width>
+    </image>
+    <language>en-us</language>
+    <managingEditor>j.ivar.sound@gmail.com (Jason I. Aizkalns)</managingEditor>
+    <webMaster>j.ivar.sound@gmail.com (Jason I. Aizkalns)</webMaster>
+    <copyright>j.ivar sound., All Rights Reserved. MIT License.</copyright>
+    <lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://www.jivarsound.com/tags/new-artists/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What to Expect for Mixing and Mastering</title>
+      <link>https://www.jivarsound.com/blog/what-to-expect-for-mixing-and-mastering/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
+      <guid>https://www.jivarsound.com/blog/what-to-expect-for-mixing-and-mastering/</guid>
+      <description>&lt;p&gt;Submitting a track for mixing or mastering is daunting &amp;ndash; but if you follow a few simple guidelines, you can ensure a rewarding relationship and experience with your mixing or mastering engineer.&lt;/p&gt;
+&lt;p&gt;Every engineer is different when it comes to expectations, but our guidelines are shown below.&lt;/p&gt;
+&lt;h2 id=&#34;mixing-preparing-your-stems-for-mixing&#34;&gt;Mixing: Preparing Your Stems for Mixing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All stems must be in .wav or .aiff format. Please &lt;strong&gt;no lossy formats&lt;/strong&gt; (i.e., do not submit .aac, .mp3, .ogg, or .wma formats).&lt;/li&gt;
+&lt;li&gt;Do not use any limiting or compression on your master bus when bouncing your stems.&lt;/li&gt;
+&lt;li&gt;Ensure there is no clipping on any individual track or your master bus.&lt;/li&gt;
+&lt;li&gt;Turn off the &amp;ldquo;normalize&amp;rdquo; feature on individual tracks and your master output when bouncing.&lt;/li&gt;
+&lt;li&gt;If possible, provide your stems &amp;ldquo;dry&amp;rdquo; &amp;ndash; no reverb, delay, or side-chaining. This allow me to have the most flexibility when approaching your mix. All other FX and automation can remain.&lt;/li&gt;
+&lt;li&gt;You can combine similar sounds into the same stem at your discretion (e.g. hi-hats, sweeps, pads, leads, lead vocal, FX, etc.).&lt;/li&gt;
+&lt;li&gt;Please name all stems.&lt;/li&gt;
+&lt;li&gt;Files should be kept in the same resolution as the original project. For example, if your project was created at 24bit 96kHz, please submit your stems at 24bit 96kHz (.wav or .aiff).&lt;/li&gt;
+&lt;li&gt;Compress all stems into a .zip folder.&lt;/li&gt;
+&lt;li&gt;Please provide &lt;em&gt;at least one&lt;/em&gt; reference track (i.e., something commercially available or professionally released) in the same style so we have material to compare and utilize in our processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mastering-preparing-your-track-or-stems-for-mastering&#34;&gt;Mastering: Preparing your Track or Stems for Mastering&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Eliminate noise in the mix.&lt;/strong&gt; Go through your each track in your mix and eliminate all noises (e.g. pops, clicks, etc.). As necessary, use fades to cut or eliminate unwanted recorded noise. When you do this across all tracks in the mix stage, you keep the noise floor lower &amp;ndash; leaving some &amp;ldquo;breathing room&amp;rdquo; for equalization and compression at the mastering stage.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keep the mix clean and dynamic.&lt;/strong&gt; It can be tempting to use plugins on the master bus &amp;ndash; especially dynamic processors (e.g. compression) &amp;ndash; but they can quickly destroy your mix and make it difficult, if not impossible, for us to create a great master. Unless there&amp;rsquo;s a specific sound desired across the entire mix, it&amp;rsquo;s best to keep your master bus free of any processing (i.e., outboard or plug-ins).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Levels and headroom.&lt;/strong&gt; Strive for around -6 dB of headroom. The loudest part of your mix should peak at no more than -3 dB on the master bus (preferrably lower).&lt;/li&gt;
+&lt;li&gt;All stems must be in .wav or .aiff format. Please &lt;strong&gt;no lossy formats&lt;/strong&gt; (i.e., do not submit .aac, .mp3, .ogg, or .wma formats).&lt;/li&gt;
+&lt;li&gt;Do not use any limiting or compression on your master bus when bouncing your stems.&lt;/li&gt;
+&lt;li&gt;Turn off the &amp;ldquo;normalize&amp;rdquo; feature on individual tracks and your master output when bouncing.&lt;/li&gt;
+&lt;li&gt;If submitting stems, please consider the kick on its own stem. A typical 5-stem submission would be: kick, bass, vocals, music, FX.&lt;/li&gt;
+&lt;li&gt;Please name all stems.&lt;/li&gt;
+&lt;li&gt;Files should be kept in the same resolution as the original project. For example, if your project was created at 24bit 96kHz, please submit your stems at 24bit 96kHz (.wav or .aiff).&lt;/li&gt;
+&lt;li&gt;Compress all stems into a .zip folder.&lt;/li&gt;
+&lt;li&gt;Please provide &lt;em&gt;at least one&lt;/em&gt; reference track (i.e., something commercially available or professionally released) in the same style so we have material to compare and utilize in our processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Please do not hestitate to &lt;a href=&#34;https://www.jivarsound.com/contact&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black ba ph1 dib&#34;&gt;contact us&lt;/a&gt; with any questions or concerns.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why You Need Tracked Out Files</title>
+      <link>https://www.jivarsound.com/blog/why-you-need-tracked-out-files/</link>
+      <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
+      <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
+      <guid>https://www.jivarsound.com/blog/why-you-need-tracked-out-files/</guid>
+      <description>&lt;p&gt;If you want to create professional, industry-standard, music, tracked-out files/stems are essential. However, tracked-out files/stems are frequently misunderstood. In this article, I attempt to address several common questions and concerns related to tracked-out files/stems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#what-are-stems&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;&gt;What are tracked-out files/stems?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-you-need-stems&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;&gt;Why do I need them?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-stems-are-better-than-single-files&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;&gt;What makes them better than a single MP3 or WAV file?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-stems-justify-the-price&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;&gt;Why is there a price difference when a license comes with the tracked-out files/stems?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#stems-and-budget&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;&gt;What if tracked-out files/stems are out of my budget?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-are-stems&#34;&gt;What Are Tracked-Out Files / Stems?&lt;/h2&gt;
+&lt;p&gt;The terms “tracked-out files” or “stems” are common in the music and beat buying industries. A tracked-out file (or stem) is simply a single “sound” (instrument or vocal) track. For example: kick, snare, guitar, piano, lead vocal, backing vocal, ad-lib, etc. Each of these sounds is exported as an individual file.&lt;/p&gt;
+&lt;h2 id=&#34;why-you-need-stems&#34;&gt;What Are The Benefits of Tracked-Out Files / Stems?&lt;/h2&gt;
+&lt;p&gt;There are many reasons why professional audio engineers work with tracked-out stems, but one benefit rules them all:&lt;/p&gt;
+&lt;div class=&#34;fw5 bg-lightest-blue pa3 tc near-black w-two-thirds center br avenir f3 lh-title ttu tracked-tight&#34;&gt;
+control
+&lt;/div&gt;
+&lt;p&gt;Audio engineers need control over the mix in order to deliver quality mix results. Having the individual files allows the engineer to craft your song the right way and get your mix sounding like your favorite artists.&lt;/p&gt;
+&lt;p&gt;Tracked-out files/stems enable them to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Balance your mix by adjusting the volume levels of individual tracks/elements.&lt;/li&gt;
+&lt;li&gt;Cut or enhance specific frequencies on a stem so that your vocal sits perfectly in the mix.&lt;/li&gt;
+&lt;li&gt;Apply surgical or broad brush embellishments on individual elements to get the mix to sound its best for your unique artistic style.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Have you ever tracked your vocals, but they seem to “fight” the kick and the snare? You can’t quite get the right amount of “space” for your vocals to sit properly. Or maybe you just wish the kick wasn’t so low or you want that hi-hats to sparkle just a bit more.&lt;/p&gt;
+&lt;p&gt;These are just some of the things that can be remedied with the power that comes with access to tracked-out files/stems.&lt;/p&gt;
+&lt;p&gt;With tracked-out files/stems, you have complete control: you can adjust the levels of each individual track, perform surgical EQ operations, and compress/enhance different elements of the instrumental –- all of which enable you to create the best mix and representation of your song.&lt;/p&gt;
+&lt;h2 id=&#34;why-stems-are-better-than-single-files&#34;&gt;Why Are Stems Better Than An MP3 or WAV File?&lt;/h2&gt;
+&lt;p&gt;If you are serious about your music career and want to create the highest-quality music possible, you must stop using MP3 files for your songs. MP3 files are not the industry-standard and you are putting yourself at a severe disadvantage. You simply cannot professionally mix and master an MP3 file.&lt;/p&gt;
+&lt;div class=&#34;avenir bg-lightest-blue pa3 tc near-black i w-two-thirds center br&#34;&gt;
+&lt;span class=&#34;fw5&#34;&gt;Buyer Beware&lt;/span&gt; &lt;br&gt;Pre-Mastered Single-Track Files
+&lt;/div&gt;
+&lt;p&gt;While single-track WAV files are certainly a step-up in quality from their MP3 counterparts, almost every single-track file will arrive pre-mastered, which again limits your creative options. Single-track files are pre-mastered to improve the overall quality and volume of the beat.&lt;/p&gt;
+&lt;p&gt;Unfortunately&amp;hellip;&lt;/p&gt;
+&lt;div class=&#34;avenir bg-lightest-blue pa3 tc near-black i w-two-thirds center br&#34;&gt;
+“...you cannot master an already mastered instrumental.”
+&lt;/div&gt;
+&lt;p&gt;If you try to record your vocals on top of an already mastered mix, you’re going to have a bad time. Your mix is going to sound over-compressed or “squashed”. You need the headroom that comes with being able to properly set the volume levels between your vocals and the other instruments for a balanced and punch mix.&lt;/p&gt;
+&lt;h2 id=&#34;why-stems-justify-the-price&#34;&gt;Why Are Tracked-Out Files So Expensive?&lt;/h2&gt;
+&lt;p&gt;Producers charge a higher (but very fair) rate for tracked-out files because they unlock your potential. With the tracked-out files you have the ability to control the instrumental. In addition, you most likely are extended better user rights – with better control and more privileges, you are enabled to make more money from your song, amplify your exposure, and maximize your potential!&lt;/p&gt;
+&lt;h2 id=&#34;stems-and-budget&#34;&gt;Great, But Tracked-Out Files Are Out of My Budget?&lt;/h2&gt;
+&lt;p&gt;Hey, I hear you. I get it. We all have to work within our budgetary constraints.
+If purchasing tracked-out files/stems isn’t in the cards for you, I would recommend at least getting the WAV formatted version of the song. While a single-file track will be limited in terms of mixing and mastering, a competent audio engineer should still be able to craft a decent mix.&lt;/p&gt;
+&lt;p&gt;That having been said, I would not recommend this route for singles, albums, EP’s, and/or (official) music videos or tracks that you intend to sell on iTunes or stream on platforms such as Spotify. If you plan to distribute your music to the world, where there is the potential for you to be heard by labels, or go viral on the web, it is imperative that you publish the best version of yourself.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Everything You Need to Know About Buying Beats Online</title>
+      <link>https://www.jivarsound.com/blog/everything-you-need-to-know-about-buying-beats-online/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
+      <guid>https://www.jivarsound.com/blog/everything-you-need-to-know-about-buying-beats-online/</guid>
+      <description>&lt;p&gt;Buying beats online can feel overwhelming.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What are free beats?&lt;/li&gt;
+&lt;li&gt;What is a non-exclusive license?&lt;/li&gt;
+&lt;li&gt;What about an exclusive license?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this short article, I will cover everything you need to know about buying beats online.&lt;/p&gt;
+&lt;h2 id=&#34;first-please-_avoid_-free-beats&#34;&gt;First: Please &lt;em&gt;AVOID&lt;/em&gt; Free Beats&lt;/h2&gt;
+&lt;p&gt;If you learn only one thing from this article, I hope it’s this: there’s no such thing as a “free beat”. Sorry.&lt;/p&gt;
+&lt;p&gt;Unfortunately, many artists believe you can download a “free beat”, record some vocals on top of it, and distribute that music without a license. If you are using a beat for which you have not received a license agreement in writing from the producer, you are NOT authorized to use it. If you do try to use a beat without a license, you could get in serious trouble and have to pay out significant damages ($$$).&lt;/p&gt;
+&lt;p&gt;Using a &amp;ldquo;free beat&amp;rdquo; is not worth the risk.&lt;/p&gt;
+&lt;h2 id=&#34;free-beat-vs-free-license&#34;&gt;Free Beat vs. Free License&lt;/h2&gt;
+&lt;p&gt;While there is no such thing as a “free beat” there are free licenses. A free license will tend to be very restrictive, but there is still some type of written agreement (i.e., the license) that has been exchanged between the buyer and the producer. Although there was no money exchanged, there was still a license permitted to the buyer/artist.&lt;/p&gt;
+&lt;p&gt;As an artist, you must read and understand the license agreement. Again, a free beat license will tend to be restrictive. Most likely, the free license will not permit you to use the beat for any type of “for profit” activity.&lt;/p&gt;
+&lt;h2 id=&#34;but-what-can-you-do-with-a-free-beat&#34;&gt;But What Can You Do With a &amp;ldquo;Free Beat&amp;rdquo;?&lt;/h2&gt;
+&lt;p&gt;Not much. They are restrictive because you &lt;em&gt;cannot&lt;/em&gt; do anything commercial or &amp;ldquo;for profit&amp;rdquo; with them.&lt;/p&gt;
+&lt;p&gt;What if I upload something to Facebook, Instagram, or another social platform? Is that commercial? These days, &lt;em&gt;yes&lt;/em&gt;. Yes it is. Same story for YouTube, Soundcloud, TikTok, etc. because these platforms allow you to monetize streams.&lt;/p&gt;
+&lt;p&gt;The short answer is producers offer free beats to let artists:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Try the beat before they make a purchase.&lt;/li&gt;
+&lt;li&gt;Record vocals and see if their vocals match the key of the beat or flow of the track.&lt;/li&gt;
+&lt;li&gt;Record a demo and get feedback before purchasing a license.&lt;/li&gt;
+&lt;li&gt;Gain confidence that a license purchase will be worth the investment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Admittedly, some producers, including myself, will permit some artists to upload their songs created with a free beat to social media platforms. However, the producer and owner of the beat reserve the right to take down any song, post, or media created without a license at any time, for any reason.&lt;/p&gt;
+&lt;h2 id=&#34;what-are-license-agreements&#34;&gt;What Are License Agreements?&lt;/h2&gt;
+&lt;p&gt;When you purchase a beat online, you are actually purchasing a license agreement for the audio files that are copyrighted by the producer. The license agreement outlines the rights granted to you by the producer for the beat you have purchased. There are two main types of licenses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Non-Exclusive License: the same beat can be sold to multiple artists and remains available on the beat store.&lt;/li&gt;
+&lt;li&gt;Exclusive License: the beat is sold to one artist and removed from the beat store immediately after purchase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Non-Exclusive Licenses tend to have additional sub-types. At j.ivar sound LLC, we offer three non-exclusive license types: basic, premium, and unlimited. For me details on the specifics, see our &lt;a href=&#34;https://www.jivarsound.com/licensing&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34; &gt;licensing page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Each license progresses in terms of the benefits/rights that are granted to the artist. More rights = more money = more flexibility = more permissions.&lt;/p&gt;
+&lt;p&gt;Personally, the “Premium” license is what I would recommend for most artists striving to create industry-standard quality music because it comes with the tracked out files/stems.&lt;/p&gt;
+&lt;p&gt;If you cannot afford a more expensive license, you can always upgrade at a later time. You will only pay the price difference between both licenses.&lt;/p&gt;
+&lt;h2 id=&#34;what-about-exclusive-licenses&#34;&gt;What About Exclusive Licenses?&lt;/h2&gt;
+&lt;p&gt;Purchasing an exclusive license (and the corresponding exclusive rights) will always be the most expensive option. However, if you’re an artist looking to have a beat that is exclusively yours and you cannot risk having anyone else use it, then an exclusive option is definitely something to consider.&lt;/p&gt;
+&lt;p&gt;The instant you purchase exclusive rights to a beat, the beat is removed from the beat store and you receive the exclusive license.&lt;/p&gt;
+&lt;h2 id=&#34;what-about-copyrights&#34;&gt;What About Copyrights?&lt;/h2&gt;
+&lt;p&gt;When you record vocals/lyrics on the beat, you will own the copyright to your lyrics only. The song becomes legally known as a “derivative work” which means you own 50% of the writer&amp;rsquo;s share and the producer owns the other 50%.&lt;/p&gt;
+&lt;p&gt;Should you submit your song to a music distributor (e.g. TuneCore, DistroKid, CDBaby, etc.) they will ask for the copyright owner(s) of the song. At that point, you would inform your distributor (most likely by “filling in the blanks” on submission forms) that you have the copyright to the lyrics and that you have created a “new work” with copyright-protected audio that has been non-exclusively licensed to you by the producer.&lt;/p&gt;
+&lt;p&gt;You do not own the master or the sound recording rights in the song.&lt;/p&gt;
+&lt;p&gt;You have the right to use and commercially exploit the song based on the terms and conditions of the license agreement you purchased.&lt;/p&gt;
+&lt;h2 id=&#34;how-long-does-a-non-exclusive-license-last&#34;&gt;How Long Does a Non-Exclusive License Last?&lt;/h2&gt;
+&lt;p&gt;Every producer is different, but most non-exclusive licenses last between 1 and 4 years.&lt;/p&gt;
+&lt;p&gt;At j.ivar sound LLC, every non-exclusive license comes with a 3-year term.&lt;/p&gt;
+&lt;p&gt;This means that the license agreement will last for 3 years before you have to renew or upgrade it.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

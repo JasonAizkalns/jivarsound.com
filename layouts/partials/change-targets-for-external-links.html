@@ -1,0 +1,13 @@
+<script>
+
+    var links = document.querySelector(".content").getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+      // links[i].className = "link light-blue hover-bg-lightest-blue hover-near-black";
+      /* Set target to blank if linking to external site */
+      if (links[i].hostname != window.location.hostname) {
+        links[i].className = "link light-blue hover-bg-lightest-blue hover-near-black";
+        links[i].target = '_blank';
+      }
+    }
+  
+  </script>
