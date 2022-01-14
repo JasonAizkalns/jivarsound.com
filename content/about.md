@@ -89,7 +89,7 @@ description: About j.ivar -- musician, producer, songwriter, and studio owner. B
       instruction from the acclaimed
       {{< link "Father Sean Duggan" "http://home.fredonia.edu/music/faculty-bio-duggan" >}}.
       He would also befriend
-      {{< link "David Schoenwetter" "https://soundbetter.com/profiles/32346-david-schoenwetter" >}} and
+      {{< link "David Schoenwetter (INViDA)" "https://www.instagram.com/invidamusic" >}} and
       {{< link "Adam Korbesmeyer" "https://www.instagram.com/ak47engineering/" >}}.
       Nonetheless, j.ivar would leave SUNY Fredonia after only a year. Motivated in part by the
       allure and closer proximity to a lovely young lady (who would eventually

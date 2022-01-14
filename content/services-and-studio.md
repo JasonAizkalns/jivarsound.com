@@ -75,7 +75,7 @@ description: Information about the services and recording studio offered by j.iv
       Whether it's help with songwriting, lyrics, recording, tracking, production, or anything else related to your creative process, we are here to help you be the best version of yourself. 
     </p>
     <p class="lh-copy f5-ns f6 athelas">
-      Or maybe you just need help navigating this crazy industry? Again, let us lend hand, experience, and our perspective.
+      Or maybe you just need help navigating this crazy industry? Again, let us lend a hand (or ear), experience, and our perspective.
     </p>
     <p class="lh-copy f5-ns f6 athelas">
       Whatever the situation, feel free to {{< link "reach out" "/contact" >}} and we will do our best to help you succeed.
