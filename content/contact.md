@@ -8,6 +8,10 @@ description: Contact j.ivar -- musician, producer, songwriter, and studio owner.
   <form id="contactform" class="avenir measure center" method="POST">
     <fieldset id="sign_up" class="b--transparent ph0 mh0">
       <!-- <legend class="f4 fw6 ph0 mh0 ttu tracked">Get in touch</legend> -->
+      Temporary fields for verification:<br><br>
+      My Name: Jason Aizkalns (a.k.a. j.ivar)<br>
+      Primary Email: Jason.Aizkalns@gmail.com<br>
+      Secondary Email: j.ivar.sound@gmail.com
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="_replyto">Email</label>
         <input class="bn pa2 input-reset bg-near-white hover-bg-lightest-blue hover-near-black w-100" type="email" name="_replyto" placeholder="Your email">
