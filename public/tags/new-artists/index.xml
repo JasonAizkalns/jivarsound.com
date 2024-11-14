@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
-    <title>new-artists on j.ivar sound</title>
-    <link>https://www.jivarsound.com/tags/new-artists/</link>
-    <description>Recent content in new-artists on j.ivar sound</description>
+    <title>New-Artists on j.ivar sound</title>
+    <link>http://localhost:1313/tags/new-artists/</link>
+    <description>Recent content in New-Artists on j.ivar sound</description>
     <generator>Hugo -- gohugo.io</generator>
     <webfeeds:cover image="https://www.jivarsound.com/images/logo circle 800 x 800.png" />
     <webfeeds:icon>https://www.jivarsound.com/images/logo no words 180 x 180.svg</webfeeds:icon>
@@ -21,15 +21,15 @@
     <copyright>j.ivar sound., All Rights Reserved. MIT License.</copyright>
     <lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.jivarsound.com/tags/new-artists/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/new-artists/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What to Expect for Mixing and Mastering</title>
-      <link>https://www.jivarsound.com/blog/what-to-expect-for-mixing-and-mastering/</link>
+      <link>http://localhost:1313/blog/what-to-expect-for-mixing-and-mastering/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
-      <guid>https://www.jivarsound.com/blog/what-to-expect-for-mixing-and-mastering/</guid>
+      <guid>http://localhost:1313/blog/what-to-expect-for-mixing-and-mastering/</guid>
       <description>&lt;p&gt;Submitting a track for mixing or mastering is daunting &amp;ndash; but if you follow a few simple guidelines, you can ensure a rewarding relationship and experience with your mixing or mastering engineer.&lt;/p&gt;
 &lt;p&gt;Every engineer is different when it comes to expectations, but our guidelines are shown below.&lt;/p&gt;
 &lt;h2 id=&#34;mixing-preparing-your-stems-for-mixing&#34;&gt;Mixing: Preparing Your Stems for Mixing&lt;/h2&gt;
@@ -60,16 +60,16 @@
 &lt;li&gt;Please provide &lt;em&gt;at least one&lt;/em&gt; reference track (i.e., something commercially available or professionally released) in the same style so we have material to compare and utilize in our processes.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;Please do not hestitate to &lt;a href=&#34;https://www.jivarsound.com/contact&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black ba ph1 dib&#34;&gt;contact us&lt;/a&gt; with any questions or concerns.&lt;/p&gt;
+&lt;p&gt;Please do not hestitate to &lt;a href=&#34;http://localhost:1313/contact&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black ba ph1 dib&#34;&gt;contact us&lt;/a&gt; with any questions or concerns.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Why You Need Tracked Out Files</title>
-      <link>https://www.jivarsound.com/blog/why-you-need-tracked-out-files/</link>
+      <link>http://localhost:1313/blog/why-you-need-tracked-out-files/</link>
       <pubDate>Mon, 20 Dec 2021 00:00:00 +0000</pubDate>
       <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
-      <guid>https://www.jivarsound.com/blog/why-you-need-tracked-out-files/</guid>
+      <guid>http://localhost:1313/blog/why-you-need-tracked-out-files/</guid>
       <description>&lt;p&gt;If you want to create professional, industry-standard, music, tracked-out files/stems are essential. However, tracked-out files/stems are frequently misunderstood. In this article, I attempt to address several common questions and concerns related to tracked-out files/stems:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#what-are-stems&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;&gt;What are tracked-out files/stems?&lt;/a&gt;&lt;/li&gt;
@@ -117,10 +117,10 @@ If purchasing tracked-out files/stems isn’t in the cards for you, I would reco
     
     <item>
       <title>Everything You Need to Know About Buying Beats Online</title>
-      <link>https://www.jivarsound.com/blog/everything-you-need-to-know-about-buying-beats-online/</link>
+      <link>http://localhost:1313/blog/everything-you-need-to-know-about-buying-beats-online/</link>
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
       <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
-      <guid>https://www.jivarsound.com/blog/everything-you-need-to-know-about-buying-beats-online/</guid>
+      <guid>http://localhost:1313/blog/everything-you-need-to-know-about-buying-beats-online/</guid>
       <description>&lt;p&gt;Buying beats online can feel overwhelming.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;What are free beats?&lt;/li&gt;
@@ -152,7 +152,7 @@ If purchasing tracked-out files/stems isn’t in the cards for you, I would reco
 &lt;li&gt;Non-Exclusive License: the same beat can be sold to multiple artists and remains available on the beat store.&lt;/li&gt;
 &lt;li&gt;Exclusive License: the beat is sold to one artist and removed from the beat store immediately after purchase.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Non-Exclusive Licenses tend to have additional sub-types. At j.ivar sound LLC, we offer three non-exclusive license types: basic, premium, and unlimited. For me details on the specifics, see our &lt;a href=&#34;https://www.jivarsound.com/licensing&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34; &gt;licensing page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Non-Exclusive Licenses tend to have additional sub-types. At j.ivar sound LLC, we offer three non-exclusive license types: basic, premium, and unlimited. For me details on the specifics, see our &lt;a href=&#34;http://localhost:1313/licensing&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34; &gt;licensing page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Each license progresses in terms of the benefits/rights that are granted to the artist. More rights = more money = more flexibility = more permissions.&lt;/p&gt;
 &lt;p&gt;Personally, the “Premium” license is what I would recommend for most artists striving to create industry-standard quality music because it comes with the tracked out files/stems.&lt;/p&gt;
 &lt;p&gt;If you cannot afford a more expensive license, you can always upgrade at a later time. You will only pay the price difference between both licenses.&lt;/p&gt;

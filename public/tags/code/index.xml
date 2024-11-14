@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
-    <title>code on j.ivar sound</title>
-    <link>https://www.jivarsound.com/tags/code/</link>
-    <description>Recent content in code on j.ivar sound</description>
+    <title>Code on j.ivar sound</title>
+    <link>http://localhost:1313/tags/code/</link>
+    <description>Recent content in Code on j.ivar sound</description>
     <generator>Hugo -- gohugo.io</generator>
     <webfeeds:cover image="https://www.jivarsound.com/images/logo circle 800 x 800.png" />
     <webfeeds:icon>https://www.jivarsound.com/images/logo no words 180 x 180.svg</webfeeds:icon>
@@ -21,15 +21,15 @@
     <copyright>j.ivar sound., All Rights Reserved. MIT License.</copyright>
     <lastBuildDate>Sat, 26 May 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.jivarsound.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Tech Behind This Site</title>
-      <link>https://www.jivarsound.com/blog/the-tech-behind-this-site/</link>
+      <link>http://localhost:1313/blog/the-tech-behind-this-site/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
-      <guid>https://www.jivarsound.com/blog/the-tech-behind-this-site/</guid>
+      <guid>http://localhost:1313/blog/the-tech-behind-this-site/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/%22Hello,_World!%22_program&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Hello World!&lt;/a&gt; 😜&lt;/p&gt;
 &lt;p&gt;Be forewarned, this is &lt;em&gt;not&lt;/em&gt; the typical theme/genre behind these posts, but my
 inner geek feels obligated to share some of the technologies

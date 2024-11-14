@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
     <title>j.ivar sound</title>
-    <link>https://www.jivarsound.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on j.ivar sound</description>
     <generator>Hugo -- gohugo.io</generator>
     <webfeeds:cover image="https://www.jivarsound.com/images/logo circle 800 x 800.png" />
@@ -21,15 +21,15 @@
     <copyright>j.ivar sound., All Rights Reserved. MIT License.</copyright>
     <lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.jivarsound.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog | j.ivar</title>
-      <link>https://www.jivarsound.com/blog/</link>
+      <link>http://localhost:1313/blog/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
-      <guid>https://www.jivarsound.com/blog/</guid>
+      <guid>http://localhost:1313/blog/</guid>
       <description></description>
     </item>
     

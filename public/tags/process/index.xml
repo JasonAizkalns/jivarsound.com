@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
-    <title>process on j.ivar sound</title>
-    <link>https://www.jivarsound.com/tags/process/</link>
-    <description>Recent content in process on j.ivar sound</description>
+    <title>Process on j.ivar sound</title>
+    <link>http://localhost:1313/tags/process/</link>
+    <description>Recent content in Process on j.ivar sound</description>
     <generator>Hugo -- gohugo.io</generator>
     <webfeeds:cover image="https://www.jivarsound.com/images/logo circle 800 x 800.png" />
     <webfeeds:icon>https://www.jivarsound.com/images/logo no words 180 x 180.svg</webfeeds:icon>
@@ -21,15 +21,15 @@
     <copyright>j.ivar sound., All Rights Reserved. MIT License.</copyright>
     <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://www.jivarsound.com/tags/process/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/process/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Making of &#34;Infinite Summer&#34; (Part 1)</title>
-      <link>https://www.jivarsound.com/blog/the-making-of-infinite-summer-part-1/</link>
+      <link>http://localhost:1313/blog/the-making-of-infinite-summer-part-1/</link>
       <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
       <author>j.ivar.sound@gmail.com (Jason I. Aizkalns)</author>
-      <guid>https://www.jivarsound.com/blog/the-making-of-infinite-summer-part-1/</guid>
+      <guid>http://localhost:1313/blog/the-making-of-infinite-summer-part-1/</guid>
       <description>&lt;p&gt;This song was supposed to be &lt;em&gt;very&lt;/em&gt; different.&lt;/p&gt;
 &lt;p&gt;It started when &lt;a href=&#34;https://www.facebook.com/steve.peiffer.1&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Steve Peiffer&lt;/a&gt; approached me to
 come up with a summer banger &amp;ndash; something that he could release down at the shore.
@@ -40,24 +40,24 @@ We got together one night and&amp;hellip;failed&amp;hellip;we failed hard. What 
 &lt;p&gt;We eventually called the session a bust and I left with some ideas and lyrics
 from Steve:&lt;/p&gt;
 &lt;figure class=&#34;ba br3 b--near-white shadow mt3 center&#34;&gt;
-  &lt;img src=&#34;https://www.jivarsound.com/images/posts/infinite-summer-verse.jpg&#34; class=&#34;w-100 measure br--top br3 db&#34; alt=&#39;Original lyrics by Steve Peiffer.&#39;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/posts/infinite-summer-verse.jpg&#34; class=&#34;w-100 measure br--top br3 db&#34; alt=&#39;Original lyrics by Steve Peiffer.&#39;&gt;
   &lt;figcaption class=&#34;f5 bg-near-white br--bottom br2 dark-gray i mv0 pv2 ph3&#34;&gt;Original lyrics by Steve Peiffer.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Refusing to give up and relying on some late night &lt;a href=&#34;https://en.wikipedia.org/wiki/Hypnagogia&#34; class=&#34;link light-blue hover-bg-lightest-blue hover-near-black&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;hypnagogic&lt;/a&gt;
 creativity, I was finally getting somewhere and wrote a workable hook:&lt;/p&gt;
 &lt;figure class=&#34;ba br3 b--near-white shadow mt3 center&#34;&gt;
-  &lt;img src=&#34;https://www.jivarsound.com/images/posts/infinite-summer-hook.jpg&#34; class=&#34;w-100 measure br--top br3 db&#34; alt=&#39;The hook for &amp;#34;Infinite Summer&amp;#34;.&#39;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/posts/infinite-summer-hook.jpg&#34; class=&#34;w-100 measure br--top br3 db&#34; alt=&#39;The hook for &amp;#34;Infinite Summer&amp;#34;.&#39;&gt;
   &lt;figcaption class=&#34;f5 bg-near-white br--bottom br2 dark-gray i mv0 pv2 ph3&#34;&gt;The hook for &amp;#34;Infinite Summer&amp;#34;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I grabbed my iPhone, placed it on the table, and quickly recorded the following:&lt;/p&gt;
-&lt;audio class=&#34;js-player&#34; src=&#34;https://www.jivarsound.com/audio/making-of-infinite-summer/Infinite%20Summer%20%28Original%20Idea%29.mp3&#34;&gt;&lt;/audio&gt;
+&lt;audio class=&#34;js-player&#34; src=&#34;http://localhost:1313/audio/making-of-infinite-summer/Infinite%20Summer%20%28Original%20Idea%29.mp3&#34;&gt;&lt;/audio&gt;
 &lt;p&gt;While certainly not the club hit we were shooting for, this felt like it had potential.
 The original song title, &amp;ldquo;Beaches and Bros&amp;rdquo; no longer felt appropriate and eventually
 this would be renamed to &amp;ldquo;Infinite Summer&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The next day, the song progressed into a more workable demo:&lt;/p&gt;
-&lt;audio class=&#34;js-player&#34; src=&#34;https://www.jivarsound.com/audio/making-of-infinite-summer/Infinite%20Summer%20%28Scratch%20Demo%29.mp3&#34;&gt;&lt;/audio&gt;
+&lt;audio class=&#34;js-player&#34; src=&#34;http://localhost:1313/audio/making-of-infinite-summer/Infinite%20Summer%20%28Scratch%20Demo%29.mp3&#34;&gt;&lt;/audio&gt;
 &lt;p&gt;In time, I would tweak a few lyrical lines and wrote a second a verse to be sung
 by a female. Stay tuned&amp;hellip;more to come on this one!&lt;/p&gt;
 </description>
